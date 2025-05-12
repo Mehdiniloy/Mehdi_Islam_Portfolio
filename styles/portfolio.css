@@ -95,6 +95,14 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+    transition: .3s;
+}
+
+.nav li a:hover, 
+.nav li a.active{
+    color: #FD6E0A;
+    
+
 }
 
 /* banner styles */
@@ -153,22 +161,28 @@ main section{
 
 /* skills section styles */
 
-.skill-description{
+.service-description{
     font-weight: 400;
     font-size: 16px;
     color: #757575 ;
 
 }
 
-.skills-container{
+.services-container{
     display: flex;
     gap: 24px;
 }
 
-.skill{
+.service{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+.portfolio-img {
+    
+ 
 }
 
 
